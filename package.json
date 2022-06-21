@@ -1,0 +1,34 @@
+{
+  "name": "base-smart-contracts",
+  "version": "1.0.0",
+  "description": "A collection of smart contracts for various purposes",
+  "main": "index.js",
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@nomiclabs/hardhat-etherscan": "^3.0.4",
+    "@nomiclabs/hardhat-waffle": "^2.0.0",
+    "chai": "^4.2.0",
+    "dotenv": "^16.0.1",
+    "ethereum-waffle": "^3.0.0",
+    "ethers": "^5.0.0",
+    "hardhat": "^2.9.3",
+    "solc": "^0.8.4"
+  },
+  "devDependencies": {
+    "mocha": "^9.2.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hking2/base-smart-contracts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hking2/base-smart-contracts/issues"
+  },
+  "homepage": "https://github.com/hking2/base-smart-contracts#readme"
+}
