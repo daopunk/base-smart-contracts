@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.4;
 
-contract Token {
+contract BasicToken {
   uint public totalSupply;
   string public name = "die";
   string public symbol = "DIE";
